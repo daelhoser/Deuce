@@ -3,4 +3,4 @@ language: swift
 xcode_workspace: DEUCE.xcworkspace
 xcode_scheme: API
 xcode_destination: platform=macOS
-
+script: xcodebuild clean build test -workspace DEUCE.xcworkspace -scheme "API"
